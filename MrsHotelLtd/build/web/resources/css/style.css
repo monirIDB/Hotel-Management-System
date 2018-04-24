@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: url("../images/b2.jpg");
+    background-size: cover;
+/*    font-family: 'Terminal Dosis', Arial, sans-serif;*/
+}
+.header{
+    width: 100%;
+    height: 73px;
+    background: transparent;
+    
+}
+.logo{
+    width: 10%;
+    height: 73px;
+    float: left;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: #FEEDB9;
+}
+.sitename{
+    width: 50%;
+    height: 73px;
+    float: left;
+}
+.login{
+    width: 40%;
+    height: 73px;
+    float: left;
+}
+.banner{
+    width: 100%;
+    margin: 0;
+    height: 350px;
+    position: relative;
+    
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+.carrosol{
+    height: 350px;
+    width: 100%;
+    margin-top: -350px;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+}
+
+.footer{
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    background-color: #262727;
+    float: left;
+}
+.footer-left{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 10px 0;
+}
+.footer-middel{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 10px 0;
+}
+.footer-right{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 10px 0;
+}

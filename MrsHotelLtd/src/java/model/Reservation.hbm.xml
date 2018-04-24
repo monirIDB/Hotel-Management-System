@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 1, 2017 5:35:08 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.Reservation" table="reservation" catalog="hotel_management">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity"></generator>
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" unique="true" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" unique="true" />
+        </property>
+        <property name="bookingDate" type="string">
+            <column name="booking_date" />
+        </property>
+        <property name="checkOutDate" type="string">
+            <column name="check_out_date" />
+        </property>
+        <property name="dayCount" type="string">
+            <column name="day_count" />
+        </property>
+        <property name="roomNo" type="string">
+            <column name="room_no" />
+        </property>
+        <property name="roomCount" type="string">
+            <column name="room_count" length="45" />
+        </property>
+        <property name="bel" type="string">
+            <column name="bel" length="45" />
+        </property>
+        <property name="statues" type="string">
+            <column name="statues" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

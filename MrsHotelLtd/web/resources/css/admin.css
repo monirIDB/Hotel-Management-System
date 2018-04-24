@@ -1,0 +1,31 @@
+.login-form{
+    width: 100%;  height: auto; background-color: #DCDCEA; float: left;
+}
+.loginbtn{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.admin-membership{
+    width: 100%; min-height: 300px;
+}
+
+.admin-membership table tr td{
+    color: white;
+    text-align: center;
+}
+.admin-membership .heading td{
+    font-size: 20px;
+}
+
+.admin-reservation{
+    width: 100%; min-height: 450px;
+}
+.admin-reservation table tr td{
+    color: white;
+    text-align: center;
+}
+.reservation-heading td{
+    font-size: 20px;
+}
